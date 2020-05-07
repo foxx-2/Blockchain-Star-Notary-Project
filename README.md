@@ -13,6 +13,9 @@ This project will be used to deploy smart contract on Rinkeby Test Network to ma
 # Version of 
 ## openzeppelin-solidity, "version": 2.1.2
 
+# Rinkeby Test Net Address
+## 0x3B3C254e206f45b7c8b2Fff2DCf390A007E0c5E1
+
 # Task 1
 - Add a name and a symbol for your starNotary tokens.
 - Add a function lookUptokenIdToStarInfo, that looks up the stars using the Token ID, and then returns the name of the star.
