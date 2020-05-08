@@ -14,8 +14,9 @@
       font-family: "Open Sans", sans-serif;
       color: #fff;
       position: relative;
-      background: #040404 url("./bg.png") top right no-repeat;
-      background-size: cover;
+      background-color: darkcyan;
+      /* background: #040404 url("./bg.png") top right no-repeat;
+      background-size: cover; */
       padding: 20px;
       }
 
@@ -30,6 +31,7 @@
 
   input{
     width: 500px;
+    color: black;
   }
 
 
@@ -42,7 +44,6 @@
     <br>
       <h1>Create a Star</h1>
       <br><label for="starName">Star Name:</label><input type="text" id="starName"></input>
-      <br><label for="starId">Star ID:</label><input type="text" id="starId"></input>
       <br><br><button class="btn-success" id="createStar" onclick="App.createStar()">Create Star</button>
       <br>
       <hr>
